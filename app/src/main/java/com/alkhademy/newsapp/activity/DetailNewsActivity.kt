@@ -49,7 +49,9 @@ class DetailNewsActivity : AppCompatActivity() {
 
                 webView.settings.javaScriptEnabled = true
                 webView.settings.setSupportZoom(true)
-                webView.loadUrl(url!!)
+                if (url != null) {
+                    webView.loadUrl(url)
+                }
             }
         } else {
             Toast.makeText(this, getString(R.string.not_connect), Toast.LENGTH_LONG).show()
