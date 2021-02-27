@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="top_headlines">Top Headlines</string>
+    <string name="business">Business</string>
+    <string name="sport">Sport</string>
+    <string name="technology">Technology</string>
+    <string name="not_connect">Tidak terhubung dengan internet</string>
+    <string name="request_limit">Request Limit</string>
+</resources>
